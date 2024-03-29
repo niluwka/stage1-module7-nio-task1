@@ -59,14 +59,14 @@ public class FileReader {
 
         for (String line :
                 lines) {
-            if (line.startsWith("Name:")) {
+             if (line.startsWith("Name:")) {
                 name = line.substring(6).trim();
 
             } else if (line.startsWith("Age:")) {
                 age = Integer.parseInt(line.substring(5).trim());
 
             } else if (line.startsWith("Email:")) {
-                email = line.substring(7).trim();
+                 email = line.substring(7).trim();
 
 
             } else if (line.startsWith("Phone:")) {
